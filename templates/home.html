@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>Home page</h2>
+<form action="{% url 'hello' %}">
+    <textarea name="message" id="" cols="30" rows="10">{{name}} {{message}}</textarea>
+    <br><br>
+    <input type="submit">
+</form>
+</body>
+</html>
